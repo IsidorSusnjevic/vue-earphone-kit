@@ -21,7 +21,9 @@ export default {
   border: 0.2px solid #3d3d3d;
   color: rgba(143, 255, 216, 0.75);
   text-align: center;
-  ::placeholder {
+  font-family: "Dual";
+  font-size: 22px;
+    ::placeholder {
     color: rgba(107, 107, 107, 1);
   }
 }

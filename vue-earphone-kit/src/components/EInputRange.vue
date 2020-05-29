@@ -14,6 +14,7 @@ input[type="range"] {
   margin: 10px 0;
   width: 200px;
   background: transparent;
+  // overflow: hidden; ----- test
 }
 input[type="range"]:focus {
   outline: none;
@@ -34,7 +35,8 @@ input[type="range"]::-webkit-slider-thumb {
   border: 1px solid #373737;
   background: linear-gradient(145deg, #373737, #2e2e2e);
   box-shadow: 2px 2px 3px #2b2b2b, -1px -1px 2px #3b3b3b;
-  cursor: pointer;
+  // box-shadow: -100px 0 0  100px rgba(143, 255, 216, 0.7); -----test
+  cursor: ew-resize;
   -webkit-appearance: none;
   margin-top: -20px;
 }

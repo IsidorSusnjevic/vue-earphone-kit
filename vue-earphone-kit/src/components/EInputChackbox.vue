@@ -41,15 +41,18 @@ export default {
   border-radius: 0px;
   background: #333333;
   box-shadow: 5px 5px 10px #2b2b2b, -5px -5px 10px #3b3b3b;
+  border: 1px solid #373737;
 }
 .checkbox__container:hover input ~ .checkmark {
   background-color: rgba(143, 255, 216, 0.5);
   box-shadow: inset -7px 7px 14px #272727, inset 7px -7px 14px #3f3f3f;
+  border: 1px solid #373737;
 }
 .checkbox__container input:checked ~ .checkmark {
   border-radius: 0px;
   background: #333333;
   box-shadow: inset -7px 7px 14px #272727, inset 7px -7px 14px #3f3f3f;
+  border: 1px solid #373737;
 }
 .checkmark:after {
   content: "";

@@ -21,5 +21,8 @@ export default {
   border-radius: 50px;
   background: #333333;
   box-shadow: 5px 5px 10px #2b2b2b, -5px -5px 10px #3b3b3b;
+  font-family: "Dual";
+  font-weight: 500;
+  font-size: 30px;
 }
 </style>

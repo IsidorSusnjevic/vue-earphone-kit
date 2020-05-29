@@ -6,6 +6,7 @@
     <EInputChackbox style="margin-top: 100px" />
     <EInputRadio style="margin-top: 100px" />
     <EInputRadio style="margin-top: 10px" />
+    <TypographySample style="margin-top: 10px" />
   </div>
 </template>
 
@@ -15,6 +16,8 @@ import EInputText from "./components/EInputText";
 import EInputRange from "./components/EInputRange";
 import EInputChackbox from "./components/EInputChackbox";
 import EInputRadio from "./components/EInputRadio";
+import TypographySample from "./components/TypographySample";
+
 
 export default {
   name: "App",
@@ -23,12 +26,16 @@ export default {
     EInputText,
     EInputRange,
     EInputChackbox,
-    EInputRadio
+    EInputRadio,
+    TypographySample
   }
 };
 </script>
 
 <style lang="scss">
+@import url("assets/scss/main.scss");
+
+
 * {
   margin: 0;
   padding: 0;
