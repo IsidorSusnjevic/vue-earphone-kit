@@ -1,10 +1,10 @@
 <template>
-  <div class="typo__container">
-    <div class="typo__dual">
+  <div class="typography__container">
+    <div class="typography__dual">
       <h1>A</h1>
       <p>a</p>
     </div>
-    <div class="typo__mandan">
+    <div class="typography__mandan">
       <h1>A</h1>
       <p>a</p>
     </div>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
-.typo__container {
+.typography__container {
   display: flex;
   flex-direction: row;
   width: 600px;
@@ -26,7 +26,7 @@ export default {
   justify-content: center;
   align-items: center;
   //   background: red;
-  .typo__dual {
+  .typography__dual {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +53,7 @@ export default {
       font-size: 50px;
     }
   }
-  .typo__mandan {
+  .typography__mandan {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -7,6 +7,7 @@
     <EInputRadio style="margin-top: 100px" />
     <EInputRadio style="margin-top: 10px" />
     <TypographySample style="margin-top: 10px" />
+    <Icon />
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import EInputRange from "./components/EInputRange";
 import EInputChackbox from "./components/EInputChackbox";
 import EInputRadio from "./components/EInputRadio";
 import TypographySample from "./components/TypographySample";
+import Icon from "./components/Icon"
 
 
 export default {
@@ -27,7 +29,8 @@ export default {
     EInputRange,
     EInputChackbox,
     EInputRadio,
-    TypographySample
+    TypographySample,
+    Icon
   }
 };
 </script>
