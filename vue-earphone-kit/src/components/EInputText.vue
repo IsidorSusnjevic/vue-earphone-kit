@@ -27,4 +27,5 @@ export default {
     color: rgba(107, 107, 107, 1);
   }
 }
+
 </style>
